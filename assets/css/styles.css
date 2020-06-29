@@ -2,19 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
+}
+
+.header .container-fluid .text-center .text-yellow {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 45px 10px 15px 10px;
 }
 
 h1 {
     font-weight: bolder;
 }
 
-header {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    padding: 45px 10px 15px 10px;
-}
+
+
 
 body {
     background-image: linear-gradient(blue,  rgb(105, 209, 250));
@@ -70,11 +74,15 @@ body {
 
 .weather .temperature {
     color: yellow;
-    font-size: 100px;
+    font-size: 50px;
 
 }
 
 .weather .condition {
     color: seashell;
     font-size: large;
+}
+
+.col-lg-8 .card-primary {
+    background-color: blue;
 }
